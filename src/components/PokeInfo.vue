@@ -86,7 +86,7 @@ onMounted(() => {
       <div class="column is-10-mobile pokemon-types">
           <figure v-for="(item, index) in pokemon.types" :key="index" 
           class="image is-48x48 mx-1">
-            <img class="is-rounded" :src="'/src/assets/' + item.type.name + '.png'" :alt="item.type.name">
+            <img class="is-rounded" :src="'/img/types/' + item.type.name + '.png'" :alt="item.type.name">
           </figure>
       </div>
     </div>
